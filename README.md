@@ -32,7 +32,9 @@ Make sure you have the following software installed on your machine:
 #Run the npm start command
 3. In the project directory, you can run:
 
-```bash `npm start`
+```bash `
+npm start
+`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
