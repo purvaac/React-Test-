@@ -1,0 +1,73 @@
+.fixed-slider {
+  width: 100%;
+  position: relative;
+  padding: 20px 0;
+}
+
+.slider {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #c99ac9;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #c99ac9;
+  cursor: pointer;
+}
+
+.slider-marks {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -20px;
+}
+
+.mark {
+  width: 2px;
+  height: 10px;
+  background-color: #aaa;
+}
+
+.mark.active {
+  background-color: #c99ac9;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  position: relative;
+  top: -20px;
+}
+
+.label {
+  color: #777;
+}
+
+.label.active {
+  color: #c99ac9;
+  font-weight: bold;
+}
