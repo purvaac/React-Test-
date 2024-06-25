@@ -1,4 +1,26 @@
  HEAD
+ # React-Test
+
+This is a React application for assessing various traits based on user responses to a set of questions.
+
+## Getting Started
+
+Follow these instructions to set up and run the project locally.
+
+### Prerequisites
+
+Make sure you have the following software installed on your machine:
+
+- [Node.js](https://nodejs.org/) (which includes npm)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/purvaac/React-Test-.git
+   cd React-Test-
+
 
 # Getting Started with Create React App
 
