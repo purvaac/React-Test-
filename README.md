@@ -20,6 +20,7 @@ Make sure you have the following software installed on your machine:
    ```bash
    git clone https://github.com/purvaac/React-Test-.git
    cd React-Test-
+   npm install
 
 
 # Getting Started with Create React App
